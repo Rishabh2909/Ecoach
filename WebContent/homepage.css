@@ -1,0 +1,138 @@
+
+.container-fluid{
+    background: #fc5a8d;
+    padding: 1% 0 1% 0;
+    color: #f9f256;
+    
+  
+}
+#fix{
+
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 2;
+  color: azure;
+}
+
+.card-body{
+  
+      margin : 0% 0% 20% 0%;
+      
+      
+}
+.card-stu {
+  
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 110%;
+    margin : 0% 0% 0% -10%;
+  }
+  .card-tea {
+    background-image: url("istockphoto-1190158382-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 110%;
+    margin : 0% 0% 0% -1%;
+  }
+ #buttonSlogin ,#buttonIlogin{
+  position: relative;
+  top: 55%;
+  left: 20%;
+  height: 14%;
+  background-color: rgb(65, 220, 235);
+  border-color: rgb(3, 144, 149);
+  font-size: 16px; 
+ }
+ .parallax {
+  
+  /* background-image: url("parallex bg2.jpg"); */
+  
+
+  /* Set a specific height */
+  min-height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -5%;
+}
+.footerhome{
+ 
+  /* position: fixed; */
+  /* position: absolute; */
+  /* position: static; */
+  position: relative; 
+  /* position: sticky; */
+  z-index: 1;
+    justify-content: center;
+    color: #f9f256;
+    background: #fc5a8d;
+    vertical-align : bottom;
+    text-align: center;
+    width: 100%;
+   
+   margin-bottom: -10%;
+    bottom: 0;
+  }
+  .footerhome2{
+  /* position: fixed; */
+  position: absolute;
+  /* position: static; */
+  /* position: relative;  */
+  /* position: sticky; */
+  z-index: 1;
+    justify-content: center;
+     
+    background: #e770a0;
+    vertical-align : bottom;
+    text-align: center;
+    width: 100%;
+    color: #f9f256;
+   margin-bottom: -10%;
+    bottom: 0;
+    }
+  .body{
+    
+    display:inline-block;
+   text-align: center;
+  }
+
+  .gap1login{
+    top: 15%;
+   /* height: 5%;
+   width: 3%; */
+   margin-top: 8%;
+   text-align: center ;
+   margin-bottom: -5%;
+   font-size: 250%;
+    border-radius: 20%;
+    margin-left: 1%;
+    position: relative;
+    background: #9BF298;
+
+  }
+
+.card.mb-3{
+  background-color: #F6F7D7;
+  background-blend-mode: lighten;
+  margin-left: 1.25%;
+  height: 100%;
+  width: 97%;
+  /* background-color: #1FF7EC; */
+}
+
+.loginForm{
+  /* position: static; */
+  margin:35%;
+  margin-top: -10%;
+  width: 30%;
+}
+.bgimagelogin{
+  background-image: url("sincerely-media-x1i9rVh_klk-unsplash.jpg") ;
+}

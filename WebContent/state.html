@@ -1,0 +1,23 @@
+
+<script>
+    async function loc(){
+    const response = await fetch('india.json');
+    const users = await response.json();
+    return users;
+}
+var c = loc();
+var dis= new Array();
+i=0;
+c.then((data) => {
+  data.states.forEach(myFunction);
+		function myFunction(item,index) {
+		//console.log(item.state);
+    ele=item.state;
+    document.getElementById("state").innerHTML+="<option>"+ele+"</option>";
+    //document.getElementById("state2").innerHTML+="<option>"+ele+"</option>";
+	}
+});
+
+
+
+  </script>

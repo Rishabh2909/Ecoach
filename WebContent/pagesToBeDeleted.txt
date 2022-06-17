@@ -1,0 +1,2 @@
+Pages to be deleted:
+institute_assign_trainer.jsp

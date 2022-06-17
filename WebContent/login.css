@@ -1,0 +1,102 @@
+#buttonSlogin ,#buttonIlogin{
+    position: relative;
+    top: 55%;
+    left: 20%;
+    height: 14%;
+    background-color: rgb(65, 220, 235);
+    border-color: rgb(3, 144, 149);
+    font-size: 16px; 
+   }
+   .container-fluid{
+    background: #fc5a8d;
+    padding: 1% 0 1% 0;
+    color: #f9f256;
+    
+  
+}
+#fix{
+
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 2;
+    color: azure;
+  }
+  .footerhome2{
+ 
+    /* position: fixed; */
+    position: absolute;
+    /* position: static; */
+    /* position: relative;  */
+    /* position: sticky; */
+    z-index: 1;
+      justify-content: center;
+       
+      background: #e770a0;
+      vertical-align : bottom;
+      text-align: center;
+      width: 100%;
+      color: #f9f256;
+     margin-bottom: -10%;
+      bottom: 0;
+    }
+    #list-tab{
+        position: relative;
+        top: 50%;
+        
+    }
+    /* .list-group-item-action.active{
+       z-index: 0;
+        background: #D81B60;
+        border-color: rgb(3, 13, 14);
+        border-width: 4px;
+        
+    } */
+    .a.active{
+      z-index: 0;
+      background: #D81B60;
+      border-color: #D81B60; border-left-color: rgb(3, 13, 14);
+      border-bottom-color: rgb(3, 13, 14);
+      border-width: 4px;
+    }
+    .b.active{
+      z-index: 0;
+      background: #D81B60;
+      border-color: #D81B60;
+      border-bottom-color: rgb(3, 13, 14);
+      border-width: 4px;
+    }
+    .c.active{
+      z-index: 0;
+      background: #D81B60;
+      border-color: #D81B60; border-right-color: rgb(3, 13, 14);
+      border-bottom-color: rgb(3, 13, 14);
+      border-width: 4px;
+    }
+    body{
+        background-image: url("zulmaury-saavedra-SEdFmri-K6E-unsplash2.jpg");
+        background-repeat: no-repeat;
+        /* background-image: stretch;
+         */
+        
+         background-size: cover;
+    }
+    .loginForm{
+      position: relative;
+      /* top: 1rem; */
+      border-right: 5px solid black;
+      border-bottom-left-radius: 10%;
+  }
+  
+  .loginForm1{
+
+    position: relative;
+    /* top: 1rem; */
+    /* border-right: 5px solid black; */
+    border-bottom-left-radius: 10%;
+
+}
+
+.testcards{
+  width: 100%;
+}
